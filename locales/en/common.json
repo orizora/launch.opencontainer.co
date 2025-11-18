@@ -148,7 +148,7 @@
       "bronze": {
         "name": "Bronze Plan",
         "tag": "(Buyer Package)",
-        "price": "$121.97",
+        "price": "$199.00",
         "desc": "Ideal starter package for individual users and small businesses.",
         "badge-buyer": "BUYER",
         "features": [
@@ -160,7 +160,7 @@
       "silver": {
         "name": "Silver Plan",
         "tag": "(Seller Package)",
-        "price": "$396.47",
+        "price": "$299.00",
         "desc": "Enhanced solution for SMEs and regular leasing users.",
         "badge-buyer": "BUYER",
         "badge-seller": "SELLER",
@@ -174,7 +174,7 @@
       "gold": {
         "name": "Gold Plan",
         "tag": "(Seller Package)",
-        "price": "$548.97",
+        "price": "$499.00",
         "desc": "Comprehensive solution for large enterprises, dealers and professional sellers.",
         "badge-buyer": "BUYER",
         "badge-seller": "SELLER",

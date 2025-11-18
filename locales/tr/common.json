@@ -148,7 +148,7 @@
       "bronze": {
         "name": "Bronz Plan",
         "tag": "(Alıcı Paketi)",
-        "price": "$121.97",
+        "price": "$199.00",
         "desc": "Bireysel kullanıcılar ve küçük çaplı işletmeler için ideal başlangıç paketi.",
         "badge-buyer": "ALICI",
         "features": [
@@ -160,7 +160,7 @@
       "silver": {
         "name": "Gümüş Plan",
         "tag": "(Satıcı Paketi)",
-        "price": "$396.47",
+        "price": "$299.00",
         "desc": "KOBİ'ler ve düzenli kiralama yapan kullanıcılar için geliştirilmiş çözüm.",
         "badge-buyer": "ALICI",
         "badge-seller": "SATICI",
@@ -174,7 +174,7 @@
       "gold": {
         "name": "Altın Plan",
         "tag": "(Satıcı Paketi)",
-        "price": "$548.97",
+        "price": "$499.00",
         "desc": "Büyük ölçekli işletmeler, bayiler ve profesyonel satıcılar için kapsamlı çözüm.",
         "badge-buyer": "ALICI",
         "badge-seller": "SATICI",
