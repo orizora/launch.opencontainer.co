@@ -87,7 +87,7 @@ const useCases = [
     imageUrl: "/images/panel-urun-ekle.png",
     imageWidth: 1200,
     imageHeight: 800,
-    linkUrl: "https://opencontainer.co/tr/planner",
+    linkUrl: "https://opencontainer.co/planner",
   },
   {
     key: 1,
@@ -96,7 +96,7 @@ const useCases = [
     imageUrl: "/images/panel-offer.png",
     imageWidth: 1200,
     imageHeight: 800,
-    linkUrl: "https://opencontainer.co/tr",
+    linkUrl: "https://opencontainer.co",
   },
   {
     key: 2,
@@ -105,7 +105,7 @@ const useCases = [
     imageUrl: "/images/compare.png",
     imageWidth: 1200,
     imageHeight: 1000,
-    linkUrl: "https://opencontainer.co/tr",
+    linkUrl: "https://opencontainer.co",
   },
   {
     key: 3,
@@ -114,7 +114,7 @@ const useCases = [
     imageUrl: "/images/panel.png",
     imageWidth: 1200,
     imageHeight: 1200,
-    linkUrl: "https://opencontainer.co/tr",
+    linkUrl: "https://opencontainer.co",
   },
 ];
 

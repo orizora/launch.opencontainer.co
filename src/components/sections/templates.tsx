@@ -38,7 +38,7 @@ const TemplatesSection = () => {
 
         <div className="text-center mt-[10px] cursor-pointer">
           <a
-            href="https://opencontainer.co/tr/planner"
+            href="https://opencontainer.co/planner"
             target='_blank'
             className="inline-flex items-center justify-center btn-sweep bg-[#259c84] text-white font-medium text-base rounded-[8px] px-6 py-3.5 gap-2.5 transition-all shadow-[0_4px_14px_0_rgba(37,156,132,0.25)] hover:shadow-[0_6px_20px_0_rgba(37,156,132,0.3)] transform hover:scale-[1.02] cursor-pointer">
             <ShinyText

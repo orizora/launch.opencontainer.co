@@ -240,12 +240,12 @@
       "customer": {
         "title": "Customer Service",
         "links": [
-          { "label": "KVKK Disclosure", "href": "https://opencontainer.co/tr/personel-data" },
-          { "label": "Explicit Consent Text", "href": "https://opencontainer.co/tr/service-aggrement" },
-          { "label": "User Agreement", "href": "https://opencontainer.co/tr/user-aggrement" },
-          { "label": "Distance Sales Agreement", "href": "https://opencontainer.co/tr/distance-sales" },
-          { "label": "Privacy & Cookie Policy", "href": "https://opencontainer.co/tr/privacy-policy" },
-          { "label": "FAQ", "href": "https://opencontainer.co/tr/FAQs" }
+          { "label": "KVKK Disclosure", "href": "https://opencontainer.co/personel-data" },
+          { "label": "Explicit Consent Text", "href": "https://opencontainer.co/service-aggrement" },
+          { "label": "User Agreement", "href": "https://opencontainer.co/user-aggrement" },
+          { "label": "Distance Sales Agreement", "href": "https://opencontainer.co/distance-sales" },
+          { "label": "Privacy & Cookie Policy", "href": "https://opencontainer.co/privacy-policy" },
+          { "label": "FAQ", "href": "https://opencontainer.co/pricing#sss" }
         ]
       }
     },

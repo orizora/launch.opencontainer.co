@@ -47,10 +47,10 @@ const Step4Icon = (props: React.SVGProps<SVGSVGElement>) => (
 
 // Static assets & icon mapping for steps; textual content now comes from i18n
 const stepsData = [
-  { image: "/images/web-page.png", icon: Step1Icon, hrefs: { primary: "https://opencontainer.co/tr", secondary: "https://panel.opencontainer.co/tr" } },
-  { image: "/images/panel.png", icon: Step2Icon, hrefs: { primary: "https://opencontainer.co/tr/shop-product", secondary: "https://opencontainer.co/tr/shop-product" } },
-  { image: "/images/129003.jpg", icon: Step3Icon, hrefs: { primary: "https://opencontainer.co/tr/shop-product", secondary: "https://opencontainer.co/tr/shop-product" } },
-  { image: "/images/panel-offer.png", icon: Step4Icon, hrefs: { primary: "https://opencontainer.co/tr/register", secondary: "https://opencontainer.co/tr/about-us" } },
+  { image: "/images/web-page.png", icon: Step1Icon, hrefs: { primary: "https://opencontainer.co", secondary: "https://panel.opencontainer.co/tr" } },
+  { image: "/images/panel.png", icon: Step2Icon, hrefs: { primary: "https://opencontainer.co/rentals", secondary: "https://opencontainer.co/pricing" } },
+  { image: "/images/129003.jpg", icon: Step3Icon, hrefs: { primary: "https://opencontainer.co/freight/listings", secondary: "https://opencontainer.co/freight/shipping-lines" } },
+  { image: "/images/panel-offer.png", icon: Step4Icon, hrefs: { primary: "https://opencontainer.co/sign-up", secondary: "https://opencontainer.co" } },
 ] as const;
 
 const HowItWorksSection = () => {

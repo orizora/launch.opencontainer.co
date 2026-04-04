@@ -133,7 +133,7 @@ const CtaFinal = () => {
               </ul>
               <div className="flex flex-col sm:flex-row items-center gap-3 w-full">
                 <Link
-                  href="https://opencontainer.co/tr/shop-product"
+                  href="https://opencontainer.co/explore"
                   className="cursor-pointer whitespace-nowrap inline-flex items-center justify-center gap-2 rounded-lg bg-white px-8 py-4 text-base font-semibold text-[#259c84] shadow-lg shadow-black/10 transition-transform duration-200 ease-in-out hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-white/60"
                   data-event="cta_click"
                   data-cta="buyer_primary"
@@ -143,7 +143,7 @@ const CtaFinal = () => {
                   <ArrowRight className="h-4 w-4" />
                 </Link>
                 <Link
-                  href="https://opencontainer.co/tr/planner"
+                  href="https://opencontainer.co/pricing"
                   className="cursor-pointer whitespace-nowrap inline-flex items-center justify-center gap-2 rounded-lg border border-white/70 bg-transparent px-8 py-4 text-base font-semibold text-white/95 hover:bg-white/10 transition-colors focus:outline-none focus:ring-2 focus:ring-white/60"
                   data-event="cta_click"
                   data-cta="seller_secondary"

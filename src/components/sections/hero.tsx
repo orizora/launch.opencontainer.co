@@ -117,7 +117,7 @@ const HeroSection = () => {
 
           <div className="mt-10 lg:mt-12 flex flex-col items-center space-y-4">
             <a
-              href="https://opencontainer.co/tr"
+              href="https://opencontainer.co"
               title={t("hero.one-month-free")}
               target='_blank'
               className="btn-sweep bg-[#259c84] text-white font-medium text-base rounded-[8px] px-6 py-3.5 flex items-center gap-2.5 transition-all shadow-[0_4px_14px_0_rgba(37,156,132,0.25)] hover:shadow-[0_6px_20px_0_rgba(37,156,132,0.3)] transform hover:scale-[1.02] cursor-pointer">

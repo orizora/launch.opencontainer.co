@@ -99,7 +99,7 @@ export const PricingSection = () => {
                     <UserRound className="h-4 w-4" /> {t('pricing.plans.bronze.badge-buyer')}
                   </span>
                 </div>
-                <Link target="_blank" href="https://opencontainer.co/tr/planner?plan=bronz" className="cursor-pointer mt-6 inline-flex w-full items-center justify-center rounded-full bg-neutral-900 px-6 py-4 text-sm font-semibold tracking-wide text-white transition-colors hover:bg-black">
+                <Link target="_blank" href="https://opencontainer.co/pricing" className="cursor-pointer mt-6 inline-flex w-full items-center justify-center rounded-full bg-neutral-900 px-6 py-4 text-sm font-semibold tracking-wide text-white transition-colors hover:bg-black">
                   {t('pricing.plans.buy')}
                 </Link>
               </div>
@@ -147,7 +147,7 @@ export const PricingSection = () => {
                     <Store className="h-4 w-4" /> {t('pricing.plans.silver.badge-seller')}
                   </span>
                 </div>
-                <Link target="_blank" href="https://opencontainer.co/tr/planner?plan=gumus" className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-white px-6 py-4 text-sm font-semibold tracking-wide text-[#259c84] transition-colors hover:bg-white/95">
+                <Link target="_blank" href="https://opencontainer.co/pricing" className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-white px-6 py-4 text-sm font-semibold tracking-wide text-[#259c84] transition-colors hover:bg-white/95">
                   {t('pricing.plans.buy')}
                 </Link>
               </div>
@@ -186,7 +186,7 @@ export const PricingSection = () => {
                     <Store className="h-4 w-4" /> {t('pricing.plans.gold.badge-seller')}
                   </span>
                 </div>
-                <Link target="_blank" href="https://opencontainer.co/tr/planner?plan=altin" className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-neutral-900 px-6 py-4 text-sm font-semibold tracking-wide text-white transition-colors hover:bg-black">
+                <Link target="_blank" href="https://opencontainer.co/pricing" className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-neutral-900 px-6 py-4 text-sm font-semibold tracking-wide text-white transition-colors hover:bg-black">
                   {t('pricing.plans.buy')}
                 </Link>
               </div>

@@ -48,7 +48,7 @@ const TestimonialGuillaume = () => {
             <div className="mt-8">
               <a
                 target="_blank"
-                href="https://opencontainer.co/tr/about-us"
+                href="https://opencontainer.co"
                 className="inline-block bg-brand-light-gray text-[#259c84] text-base font-medium py-[10px] px-5 rounded-lg hover:bg-opacity-80 transition-colors"
               >
                 Daha fazla bilgi edinin

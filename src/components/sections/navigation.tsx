@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import Image from 'next/image';
@@ -7,19 +8,42 @@ import ShinyText from '../ui/ShinyText';
 import LanguageSwitcher from '../ui/LanguageSwitcher';
 import { Drawer, DrawerContent, DrawerTrigger, DrawerClose } from '@/components/ui/drawer';
 import { useI18n } from '@/lib/i18n/I18nProvider';
+import { cn } from '@/lib/utils';
 
 
 export default function Navigation() {
   const { locale, t } = useI18n();
+  const [isAtTop, setIsAtTop] = useState(true);
+
+  useEffect(() => {
+    const updateScrollState = () => {
+      setIsAtTop(window.scrollY === 0);
+    };
+
+    updateScrollState();
+    window.addEventListener('scroll', updateScrollState, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', updateScrollState);
+    };
+  }, []);
 
   const navItems = [
     { label: t('nav.pricing'), href: '#pricing', rel: 'noopener noreferrer' },
-    { label: t('nav.product'), href: `https://opencontainer.co/${locale}`, target: '_blank', rel: 'noopener noreferrer' },
-    { label: t('nav.blog'), href: `https://opencontainer.co/${locale}/blog-grid`, target: '_blank', rel: 'noopener noreferrer' },
-    { label: t('nav.faq'), href: `https://opencontainer.co/${locale}/FAQs`, target: '_blank', rel: 'noopener noreferrer' },
+    { label: t('nav.product'), href: `https://opencontainer.co`, target: '_blank', rel: 'noopener noreferrer' },
+    { label: t('nav.blog'), href: `https://opencontainer.co/news`, target: '_blank', rel: 'noopener noreferrer' },
+    { label: t('nav.faq'), href: `https://opencontainer.co/pricing#sss`, target: '_blank', rel: 'noopener noreferrer' },
   ];
+
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/70 shadow-sm border-b border-gray-100">
+    <header
+      className={cn(
+        'sticky top-0 z-50 transition-colors duration-200',
+        isAtTop
+          ? 'bg-transparent border-b border-transparent shadow-none'
+          : 'bg-white border-b border-gray-100 shadow-sm'
+      )}
+    >
       <div className="container flex h-20 lg:h-24 items-center justify-between">
         {/* Logo */}
         <Link href={`/${locale}`} aria-label="Home" className="shrink-0">
@@ -60,7 +84,7 @@ export default function Navigation() {
         <div className="hidden items-center space-x-4 xl:space-x-6 lg:flex">
           <LanguageSwitcher />
           <a
-            href={`https://opencontainer.co/${locale}/planner`}
+            href={`https://opencontainer.co/planner`}
             target='_blank'
             rel="noopener noreferrer"
             className="btn-sweep bg-[#259c84] rounded-md px-5 py-3 flex items-center gap-2.5 transition-all shadow-[0_4px_14px_0_rgba(37,156,132,0.25)] hover:shadow-[0_6px_20px_0_rgba(37,156,132,0.3)] hover:scale-[1.02] active:scale-[0.99] cursor-pointer"
@@ -124,7 +148,7 @@ export default function Navigation() {
                   <LanguageSwitcher />
                 </div>
                 <a
-                  href={`https://opencontainer.co/${locale}/planner`}
+                  href={`https://opencontainer.co/planner`}
                   target='_blank'
                   rel="noopener noreferrer"
                   className="btn-sweep bg-[#259c84] rounded-md px-5 py-3 flex items-center justify-center gap-2.5 transition-all shadow-[0_4px_14px_0_rgba(37,156,132,0.25)] hover:shadow-[0_6px_20px_0_rgba(37,156,132,0.3)] hover:scale-[1.02] active:scale-[0.99] cursor-pointer text-white text-sm font-medium"

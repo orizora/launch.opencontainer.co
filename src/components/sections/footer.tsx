@@ -114,7 +114,7 @@ const Footer = () => {
                 <label className="mt-4 flex items-start gap-2 text-[13px] text-neutral-600">
                   <input type="checkbox" className="mt-1 h-4 w-4 border" />
                   <span>
-                    {t('footer.consent.prefix')} <a target='_blank' href="https://opencontainer.co/tr/service-aggrement" className="underline font-medium">{t('footer.consent.open-consent')}</a> {t('footer.consent.and')} <a target='_blank' href="https://opencontainer.co/tr/privacy-policy" className="underline font-medium">{t('footer.consent.privacy-policy')}</a>.
+                    {t('footer.consent.prefix')} <a target='_blank' href="https://opencontainer.co/service-aggrement" className="underline font-medium">{t('footer.consent.open-consent')}</a> {t('footer.consent.and')} <a target='_blank' href="https://opencontainer.co/privacy-policy" className="underline font-medium">{t('footer.consent.privacy-policy')}</a>.
                   </span>
                 </label>
               </form>

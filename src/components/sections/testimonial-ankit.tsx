@@ -95,7 +95,7 @@ const TestimonialAnkit = () => {
                 />
               </blockquote>
               <a 
-                href="https://opencontainer.co/tr/shop-product" 
+                href="https://opencontainer.co/explore" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block text-[#259c84] font-semibold py-[10px] px-5 border-2 border-[#CBEDE6] rounded-lg bg-transparent hover:bg-white/30 transition-colors"

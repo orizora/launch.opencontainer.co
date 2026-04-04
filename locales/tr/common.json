@@ -240,12 +240,12 @@
       "customer": {
         "title": "Müşteri Hizmetleri",
         "links": [
-          { "label": "KVKK Aydınlatma Metni", "href": "https://opencontainer.co/tr/personel-data" },
-          { "label": "Açık Rıza Metni", "href": "https://opencontainer.co/tr/service-aggrement" },
-            { "label": "Kullanıcı Sözleşmesi", "href": "https://opencontainer.co/tr/user-aggrement" },
-          { "label": "Mesafeli Satış Sözleşmesi", "href": "https://opencontainer.co/tr/distance-sales" },
-          { "label": "Gizlilik ve Çerez Politikası", "href": "https://opencontainer.co/tr/privacy-policy" },
-          { "label": "SSS", "href": "https://opencontainer.co/tr/FAQs" }
+          { "label": "KVKK Aydınlatma Metni", "href": "https://opencontainer.co/personel-data" },
+          { "label": "Açık Rıza Metni", "href": "https://opencontainer.co/service-aggrement" },
+            { "label": "Kullanıcı Sözleşmesi", "href": "https://opencontainer.co/user-aggrement" },
+          { "label": "Mesafeli Satış Sözleşmesi", "href": "https://opencontainer.co/distance-sales" },
+          { "label": "Gizlilik ve Çerez Politikası", "href": "https://opencontainer.co/privacy-policy" },
+          { "label": "SSS", "href": "https://opencontainer.co/pricing#sss" }
         ]
       }
     },
