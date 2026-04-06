@@ -3,8 +3,8 @@ import { Globe } from 'lucide-react';
 import { usePathname, useRouter } from 'next/navigation';
 import { useEffect, useState, useCallback, useRef } from 'react';
 
-const LOCALES = ["tr", "en"] as const;
-const DEFAULT_LOCALE = "tr" as const;
+const LOCALES = ["en", "tr"] as const;
+const DEFAULT_LOCALE = "en" as const;
 
 type Locale = typeof LOCALES[number];
 
@@ -94,8 +94,8 @@ export default function LanguageSwitcher({ variant = 'inline', className = '' }:
         value={current}
         onChange={(e) => switchLocale(e.target.value as Locale)}
       >
-        <option value="tr">Türkçe</option>
         <option value="en">English</option>
+        <option value="tr">Türkçe</option>
       </select>
     </div>
   );

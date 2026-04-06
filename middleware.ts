@@ -6,14 +6,6 @@ function getLocale(request: NextRequest) {
   const cookie = request.cookies.get('NEXT_LOCALE')?.value;
   if (cookie && locales.includes(cookie as any)) return cookie;
 
-  const header = request.headers.get('accept-language');
-  if (header) {
-    const preferred = header.split(',').map(part => part.split(';')[0].trim());
-    for (const p of preferred) {
-      const base = p.split('-')[0];
-      if (locales.includes(base as any)) return base;
-    }
-  }
   return defaultLocale;
 }
 
