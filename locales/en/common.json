@@ -1,13 +1,13 @@
 {
   "hero": {
-    "title-1": "Find Your Container, Manage Your Freight, Digitize Your Route",
-    "title-2": "New & Used Containers",
-    "title-3": "Fast Quote, Secure Purchase",
-    "title-4": "Rental and Sales on a Single Platform",
-    "cta": "Get Started",
-    "one-month-free": "Try 1 Month Free",
-    "btn-desc": "Discover Containers / Get Offer Now",
-    "description": "OpenContainer is a digital marketplace that brings container trading, leasing, and freight management together in one place. Reach out to your business partners, compare offers, and easily manage your logistics processes."
+    "title-1": "Maritime Trade & Freight Platform",
+    "title-2": "The Private Engine for Maritime Professionals",
+    "title-3": "Join the Charter 200",
+    "title-4": "Verified Container, Leasing and Freight Workflows",
+    "cta": "Request Access",
+    "one-month-free": "Charter 200 - Closed Beta",
+    "btn-desc": "Container Trading / Leasing / Freight Procurement",
+    "description": "OpenContainer brings container trading, leasing, and freight procurement into one verified professional environment. The right counterparty finds you faster, commercial terms are clearer before commitment, and critical deal flow stays in one place."
   },
   "stats": {
     "container": "More than 500 container listings",
@@ -18,45 +18,45 @@
     "sponsor-desc": "Our strong sponsor network supports our growth."
   },
   "how-it-works":{
-    "heading": "From Idea to Reality: The Transformation of OpenContainer",
-    "description": "We started as a simple marketplace that eliminated phone and email traffic. Now we’re making logistics digitally manageable end-to-end with leasing, freight, warehousing and payment modules.",
+    "heading": "Platform Modules",
+    "description": "One platform. Every transaction.",
     "steps": {
       "0": {
-        "title-1": "MVP Ready:",
-        "title-2": "Simple, Fast, Reliable",
-        "desc": "Core modules are live: quote comparison, contracts, payment and tracking. Companies using it today have started measuring time and cost savings.",
-        "cta-primary": "Try Now",
-        "cta-secondary": "Review the Flow"
+        "title-1": "01 Container",
+        "title-2": "Trading",
+        "desc": "Buy and sell new or used containers globally. Verified buyers and sellers, direct contact, and less noise between counterparties.",
+        "cta-primary": "Explore Trading",
+        "cta-secondary": "View Platform"
       },
       "1": {
-        "title-1": "Lease a container in 5",
-        "title-2": "minutes on one screen",
-        "desc": "Need Izmir - Mersin 40HC one-way or standard lease (return to defined depot)? Enter route and dates; get offers from multiple suppliers. View price, duration and terms side-by-side and pick the best option in minutes.",
-        "cta-primary": "Lease Now",
-        "cta-secondary": "View Plans"
+        "title-1": "02 Container",
+        "title-2": "Leasing",
+        "desc": "Source standard or one-way equipment, compare commercial terms side-by-side, and secure supply faster inside a structured workflow.",
+        "cta-primary": "Explore Leasing",
+        "cta-secondary": "See Terms"
       },
       "2": {
-        "title-1": "Review offers",
-        "title-2": "or create a request",
-        "desc": "Compare existing freight offers by route and conditions or enter your demand; verified companies send you quotes within minutes. Track the shipment end-to-end from the panel.",
-        "cta-primary": "Create Freight Request",
-        "cta-secondary": "Browse Routes / Offers"
+        "title-1": "03 Freight",
+        "title-2": "Procurement",
+        "desc": "Collect verified freight offers, compare routes and conditions, and move from request to decision in one controlled workspace.",
+        "cta-primary": "Explore Freight",
+        "cta-secondary": "Browse Offers"
       },
       "3": {
-        "title-1": "We keep",
-        "title-2": "Improving",
-        "desc": "We continuously add new features, integrations and marketplaces — join the journey.",
-        "cta-primary": "Join Us — Start Free",
-        "cta-secondary": "Our Roadmap"
+        "title-1": "04 Contracts",
+        "title-2": "& Payments",
+        "desc": "Keep approvals, documents, and payment steps aligned inside a single managed transaction flow instead of scattered inbox threads.",
+        "cta-primary": "View Workflow",
+        "cta-secondary": "Talk to Team"
       }
     }
   },
   "testimonial": {
     "ankit": {
-      "quote": "\"Find Your Container, Manage Your Freight, Digitize Your Route\"",
-      "cta": "Start Digitizing",
+      "quote": "\"A managed trade network where every piece of equipment is verified and every entry is handled by experts.\"",
+      "cta": "Join Charter 200",
       "image-alt": "OpenContainer",
-      "label": "OpenContainer"
+      "label": "Charter 200"
     },
     "list": {
       "0": {
@@ -80,32 +80,32 @@
     }
   },
   "what-can-you-do": {
-    "heading-line-1": "With OpenContainer",
-    "heading-line-2": "what can you do?",
+    "heading-line-1": "OpenContainer modules",
+    "heading-line-2": "in one screen",
     "cta-more": "See details",
     "cases": {
       "0": {
-        "badge": "Container Management",
-        "title": "You can add containers and start selling immediately.",
-        "desc": "Add your containers to your store in a few clicks, publish the listing and start selling.",
+        "badge": "Module 01",
+        "title": "Container Trading",
+        "desc": "Buy and sell new or used containers globally with verified counterparties and direct commercial contact.",
         "image-alt": "Container listing and selling operations"
       },
       "1": {
-        "badge": "Freight",
-        "title": "Freight: review offers or create a request",
-        "desc": "Enter your route and dates; receive multiple offers from verified companies within minutes. Compare existing freight offers, agree on the best terms and track the shipment end-to-end.",
+        "badge": "Module 02",
+        "title": "Container Leasing",
+        "desc": "Find standard or one-way equipment, compare lease conditions side-by-side, and reduce blind outreach.",
         "image-alt": "Freight operations and port view"
       },
       "2": {
-        "badge": "Price comparison",
-        "title": "You can compare pricing",
-        "desc": "Compare instant freight quotes from different lines and agents, capture the best cost.",
+        "badge": "Module 03",
+        "title": "Freight Procurement",
+        "desc": "Compare verified freight quotes, review routes and commercial conditions, and decide faster with better visibility.",
         "image-alt": "Price and logo comparison visual"
       },
       "3": {
-        "badge": "Single platform",
-        "title": "Control all container operations digitally in one place",
-        "desc": "Manage booking, tracking, invoicing and reporting processes end-to-end from a single platform.",
+        "badge": "Module 04",
+        "title": "Contracts and Payments",
+        "desc": "Keep quote approvals, documents, and payment milestones attached to the transaction in one managed flow.",
         "image-alt": "Digital management of container operations"
       }
     }
@@ -188,19 +188,19 @@
     }
   },
   "cta-final": {
-    "title-line-1": "Turkey's Largest",
-    "title-line-2": "Container Marketplace",
-    "description": "Find containers, compare offers and pay securely. Best price guarantee.",
+    "title-line-1": "Join the",
+    "title-line-2": "Charter 200",
+    "description": "We are onboarding a focused group of maritime professionals who want cleaner transactions, stronger counterparties, and a verified network from day one.",
     "benefits": [
-      "Instant Booking — Reserve with one click",
-      "Best Price — Compare offers",
-      "Secure Payment — Protected by Iyzico & PayTr",
-      "Direct Seller Access — Connect with supplier/partner"
+      "Verified counterparties only",
+      "Expert-reviewed listings and onboarding",
+      "Faster response times across transactions",
+      "Built for serious maritime operators"
     ],
-    "cta-buyer": "Explore Containers",
-    "cta-seller": "Become a Seller",
-    "secure": "100% secure payment — Protected via Iyzico & PayTr.",
-    "image-alt": "Container marketplace — port filled with containers"
+    "cta-buyer": "Request Access",
+    "cta-seller": "Talk to Team",
+    "secure": "Managed onboarding for verified maritime professionals.",
+    "image-alt": "Maritime trade and freight operations"
   },
   "site": {
     "name": "OPENCONTAINER",
@@ -214,7 +214,7 @@
     "language":"Language"
   },
   "cta": {
-    "start": "Get Started"
+    "start": "Request Access"
   },
   "footer": {
     "newsletter": "Newsletter",

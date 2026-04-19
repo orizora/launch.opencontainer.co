@@ -1,7 +1,7 @@
 import Navigation from '@/components/sections/navigation';
 import HeroSection from '@/components/sections/hero';
-import AwardsSection from '@/components/sections/awards';
-import TrustedCompanies from '@/components/sections/trusted-companies';
+// import AwardsSection from '@/components/sections/awards';
+// import TrustedCompanies from '@/components/sections/trusted-companies';
 import HowItWorksSection from '@/components/sections/how-it-works';
 import TestimonialsSection from '@/components/sections/testimonials';
 import WhatCanYouDo from '@/components/sections/what-can-you-do';

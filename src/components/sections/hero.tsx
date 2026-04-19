@@ -141,7 +141,7 @@ const HeroSection = () => {
             transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
           >
             <Image
-              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Ekran%20Resmi%202025-09-18%2021.35.12-1758220604863.png"
+              src="/images/new-banner.png"
               alt="OpenContainer"
               width={1070}
               height={700}

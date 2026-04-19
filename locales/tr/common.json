@@ -1,13 +1,13 @@
 {
   "hero": {
-    "title-1": "Konteynerini Bul, Navlununu Yönet, Rotanı Dijitale Çevir",
-    "title-2": "Yeni ve İkinci El Konteynerler",
-    "title-3": "Hızlı Teklif, Güvenli Alım",
-    "title-4": "Kiralama ve Satış Tek Platformda",
-    "cta": "Hemen Başlayalım",
-    "one-month-free": "1 Ay Ücretsiz Deneyin",
-    "btn-desc": "Konteynerleri Keşfet / Hemen Teklif Al",
-    "description": "OpenContainer, konteyner ticareti, kiralama ve navlun yönetimini tek ekranda buluşturan dijital pazar yeridir. İş ortaklarınıza ulaşın, teklifleri karşılaştırın ve lojistik süreçlerinizi kolayca yönetin."
+    "title-1": "Denizcilik Ticaret ve Navlun Platformu",
+    "title-2": "Denizcilik Profesyonelleri İçin Özel Operasyon Motoru",
+    "title-3": "Charter 200'e Katılın",
+    "title-4": "Doğrulanmış Konteyner, Kiralama ve Navlun Akışları",
+    "cta": "Erişim Talep Et",
+    "one-month-free": "Charter 200 - Kapalı Beta",
+    "btn-desc": "Konteyner Ticareti / Kiralama / Navlun Tedariki",
+    "description": "OpenContainer; konteyner ticareti, kiralama ve navlun tedarikini doğrulanmış profesyonel bir ortamda bir araya getirir. Doğru karşı taraf size daha hızlı ulaşır, ticari şartlar karar öncesinde daha görünür olur ve kritik işlem akışı tek yerde kalır."
   },
   "stats": {
     "container": "500'den fazla konteyner ilanı",
@@ -18,45 +18,45 @@
     "sponsor-desc":"Büyümemize destek veren güçlü sponsor ağımız"
   },
   "how-it-works":{
-    "heading": "Fikirden Gerçeğe: OpenContainer’ın Dönüşümü",
-    "description": "Telefon ve e-posta trafiğini ortadan kaldıran basit bir pazar yeri olarak başladık. Şimdi kiralama, navlun, depo ve ödeme modülleriyle lojistiği uçtan uca dijital yönetilebilir hale getiriyoruz.",
+    "heading": "Platform Modülleri",
+    "description": "Tek platform. Her işlem.",
     "steps": {
       "0": {
-        "title-1": "MVP Hazır:",
-        "title-2": "Basit, Hızlı, Güvenilir",
-        "desc": "Kilit modüller canlı: teklif karşılaştırma, sözleşme, ödeme ve takip. Bugün kullanan şirketler maliyet ve zaman kazancını ölçmeye başladı.",
-        "cta-primary": "Hemen Deneyin",
-        "cta-secondary": "Süreci İncele"
+        "title-1": "01 Konteyner",
+        "title-2": "Ticareti",
+        "desc": "Yeni veya ikinci el konteynerleri global ölçekte alıp satın. Doğrulanmış alıcı ve satıcılar arasında daha temiz bir ticari akış kurun.",
+        "cta-primary": "Ticareti İncele",
+        "cta-secondary": "Platformu Gör"
       },
       "1": {
-        "title-1": "Tek ekranda 5 dakikada",
-        "title-2": "konteyner kiralama",
-        "desc": "İzmir - Mersin 40HC tek yön ya da standart (belirlenen depoya iade) kiralama mı lazım? Rota ve tarihleri gir; birden fazla tedarikçiden teklif gelsin. Fiyat, süre ve koşulları yan yana gör, en iyi seçeneği dakikalar içinde seç.",
-        "cta-primary": "Hemen Kirala",
-        "cta-secondary": "Planları Gör"
+        "title-1": "02 Konteyner",
+        "title-2": "Kiralama",
+        "desc": "Standart veya tek yön ekipman bulun, ticari koşulları yan yana kıyaslayın ve arzı daha hızlı güvence altına alın.",
+        "cta-primary": "Kiralamayı İncele",
+        "cta-secondary": "Koşulları Gör"
       },
       "2": {
-        "title-1": "Teklifleri inceleyin",
-        "title-2": "veya talep oluşturun",
-        "desc": "Mevcut navlun tekliflerini rota ve koşullara göre karşılaştırın ya da talebinizi girin; doğrulanmış firmalar size dakikalar içinde teklif sunsun. Sevkiyatı uçtan uca panelden takip edin.",
-        "cta-primary": "Navlun Talebi Oluştur",
-        "cta-secondary": "Rotaları / Teklifleri İncele"
+        "title-1": "03 Navlun",
+        "title-2": "Tedariki",
+        "desc": "Doğrulanmış navlun tekliflerini toplayın, rotaları ve koşulları karşılaştırın, talep aşamasından karara tek çalışma alanında ilerleyin.",
+        "cta-primary": "Navlunu İncele",
+        "cta-secondary": "Teklifleri Gör"
       },
       "3": {
-        "title-1": "Gelişmeye",
-        "title-2": "Devam Ediyoruz",
-        "desc": "Sürekli yeni özellikler, entegrasyonlar ve pazar yerleri ekliyoruz — yolculuğa katılın.",
-        "cta-primary": "Bize Katılın — Ücretsiz Başla",
-        "cta-secondary": "Yol Haritamız"
+        "title-1": "04 Sözleşme",
+        "title-2": "ve Ödeme",
+        "desc": "Teklif onayları, evraklar ve ödeme adımlarını dağınık yazışmalar yerine tek bir yönetilen işlem akışında tutun.",
+        "cta-primary": "Akışı Gör",
+        "cta-secondary": "Ekiple Görüş"
       }
     }
   },
   "testimonial": {
     "ankit": {
-      "quote": "\"Konteynerini Bul, Navlununu Yönet, Rotanı Dijitale Çevir\"",
-      "cta": "Dijitalleşmeye Başla",
+      "quote": "\"Her ekipmanın doğrulandığı ve her kaydın uzman ekip tarafından yönetildiği kontrollü bir ticaret ağı.\"",
+      "cta": "Charter 200'e Katıl",
       "image-alt": "OpenContainer",
-      "label": "OpenContainer"
+      "label": "Charter 200"
     },
     "list": {
       "0": {
@@ -80,32 +80,32 @@
     }
   },
   "what-can-you-do": {
-    "heading-line-1": "OpenContainer ile",
-    "heading-line-2": "neler yapabilirsin?",
+    "heading-line-1": "OpenContainer modülleri",
+    "heading-line-2": "tek ekranda",
     "cta-more": "Detayları gör",
     "cases": {
       "0": {
-        "badge": "Konteyner Yönetimi",
-        "title": "Bir kaç adımda konteyner yükleyip satabilirsin",
-        "desc": "Mağazana konteynerlerini birkaç tıklamayla ekle, ilanını yayımla ve satışa başla.",
+        "badge": "Modül 01",
+        "title": "Konteyner Ticareti",
+        "desc": "Yeni veya ikinci el konteynerleri doğrulanmış karşı taraflarla global ölçekte alıp satın.",
         "image-alt": "Konteyner yükleme ve satış işlemleri"
       },
       "1": {
-        "badge": "Navlun",
-        "title": "Navlun: teklifleri inceleyin veya talep oluşturun",
-        "desc": "Rota ve tarihlerinizi girin; doğrulanmış firmalardan dakikalar içinde çoklu teklif alın. Mevcut navlun tekliflerini kıyaslayın, en iyi koşulda anlaşın, sevkiyatı uçtan uca takip edin.",
+        "badge": "Modül 02",
+        "title": "Konteyner Kiralama",
+        "desc": "Standart veya tek yön ekipman bulun, kiralama koşullarını yan yana kıyaslayın ve gereksiz temas trafiğini azaltın.",
         "image-alt": "Navlun işlemleri ve liman görüntüsü"
       },
       "2": {
-        "badge": "Fiyat karşılaştırma",
-        "title": "Fiyat karşılaştırması yapabilirsin",
-        "desc": "Farklı hat ve acentelerden anlık navlun tekliflerini karşılaştır, en uygun maliyeti yakala.",
+        "badge": "Modül 03",
+        "title": "Navlun Tedariki",
+        "desc": "Doğrulanmış navlun tekliflerini kıyaslayın, rota ve ticari koşulları görün, daha hızlı karar verin.",
         "image-alt": "Fiyat ve logo karşılaştırma görseli"
       },
       "3": {
-        "badge": "Tek platform",
-        "title": "Tüm konteyner işlerini tek yerden dijitalde kontrol edebilirsin",
-        "desc": "Rezervasyon, takip, faturalama ve raporlama süreçlerini tek platformdan uçtan uca yönet.",
+        "badge": "Modül 04",
+        "title": "Sözleşme ve Ödeme",
+        "desc": "Teklif onaylarını, evrakları ve ödeme kilometre taşlarını tek bir yönetilen akışta tutun.",
         "image-alt": "Konteyner operasyonlarının dijital yönetimi"
       }
     }
@@ -188,19 +188,19 @@
     }
   },
   "cta-final": {
-    "title-line-1": "Türkiye’nin En Büyük",
-    "title-line-2": "Konteyner Pazarı",
-    "description": "Konteyner bulun, teklifleri karşılaştırın ve güvenle ödeme yapın. En uygun fiyat garantisi.",
+    "title-line-1": "Charter 200",
+    "title-line-2": "ağına katılın",
+    "description": "İlk günden itibaren daha temiz işlem akışları, daha güçlü karşı taraflar ve doğrulanmış bir ağ isteyen odaklı denizcilik profesyonellerini sisteme alıyoruz.",
     "benefits": [
-      "Anında Rezervasyon — Tek tıkla rezerve et",
-      "En Uygun Fiyat — Teklifleri karşılaştır",
-      "Güvenli Ödeme — İyzico ve PayTr güvencesi",
-      "Doğrudan Satıcıya Ulaş — Üretici/iş ortağıyla bağlantı"
+      "Sadece doğrulanmış karşı taraflar",
+      "Uzman ekip tarafından incelenen kayıtlar",
+      "İşlemlerde daha hızlı geri dönüş süreleri",
+      "Ciddi denizcilik operatörleri için kuruldu"
     ],
-    "cta-buyer": "Konteynerleri Keşfet",
-    "cta-seller": "Hemen Satıcı Ol",
-    "secure": "100% güvenli ödeme — İyzico ve PayTr ile korunur.",
-    "image-alt": "Konteyner pazaryeri — konteynerlerle dolu liman görüntüsü"
+    "cta-buyer": "Erişim Talep Et",
+    "cta-seller": "Ekiple Görüş",
+    "secure": "Doğrulanmış denizcilik profesyonelleri için yönetilen onboarding.",
+    "image-alt": "Denizcilik ticaret ve navlun operasyonları"
   },
   "site": {
     "name": "OPENCONTAINER",
@@ -214,7 +214,7 @@
     "language":"Dil"
   },
   "cta": {
-    "start": "Hemen Başlayalım"
+    "start": "Erişim Talep Et"
   },
   "footer": {
     "newsletter": "Haber Bülteni",
