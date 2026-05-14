@@ -147,7 +147,7 @@ const HeroSection = () => {
               height={700}
               className="rounded-xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.15)] w-full h-auto"
               priority
-              onLoadingComplete={() => setImgLoaded(true)}
+                onLoad={() => setImgLoaded(true)}
             />
           </motion.div>
         </div>
