@@ -3,8 +3,8 @@ import axios from 'axios';
 const apiClient = axios.create({
   baseURL: process.env.NEXT_PUBLIC_API_URL,
   timeout: 15000,
-  // Kimlik doğrulama gerektiren uçlar için kimlik bilgisi isteklerle gider.
-  withCredentials: true,
+  // Kimliksiz çapraz köken isteklerde (iletişim formu gibi) kimlik bilgisi gitmemeli;
+  // gerektiren çağrı bunu istek bazında açar: apiClient.get(url, { withCredentials: true }).
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
