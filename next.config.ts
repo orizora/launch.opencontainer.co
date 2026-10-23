@@ -9,14 +9,9 @@ const nextConfig: NextConfig = {
   images: {
     // SVG içeriği betik taşıyabildiği için görüntü iyileştiricisinden geçmez.
     dangerouslyAllowSVG: false,
-    // Açık izin listesi: joker kullanılırsa iyileştirici herhangi bir adresi vekil olarak çeker.
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'slelguoygbfzlpylpxfs.supabase.co',
-        pathname: '/storage/v1/object/public/**',
-      },
-    ],
+    // Tüm görseller yerel; harici adres izni yok. Joker ya da üçüncü taraf adresi
+    // eklenirse iyileştirici o adresi vekil olarak çeker.
+    remotePatterns: [],
   },
   turbopack: {
     rules: {
