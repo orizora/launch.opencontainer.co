@@ -4,14 +4,13 @@ import { NextResponse } from 'next/server';
 // yanıtlar yalnız aynı kökene açık kalır; koda gömülü varsayılan yok.
 const ALLOWED_ORIGIN = process.env.NEXT_PUBLIC_CORS_ORIGIN;
 
-// Tek köken yansıtılır (asla '*'); böylece Allow-Credentials ile uyumlu kalır.
-// Başlık ve metot listesi, bu yardımcıyı kullanan rotaların ihtiyacıyla sınırlı.
+// Tek köken yansıtılır (asla '*'). Uç herkese açık ve kimliksiz olduğu için
+// Allow-Credentials verilmez; başlık ve metot listesi rotanın ihtiyacıyla sınırlı.
 const CORS_HEADERS: Record<string, string> = ALLOWED_ORIGIN
   ? {
       'Access-Control-Allow-Origin': ALLOWED_ORIGIN,
       'Access-Control-Allow-Methods': 'GET, OPTIONS',
       'Access-Control-Allow-Headers': 'Content-Type',
-      'Access-Control-Allow-Credentials': 'true',
       'Access-Control-Max-Age': '86400',
       Vary: 'Origin',
     }
