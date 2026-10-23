@@ -13,10 +13,13 @@ export default async function LocaleLayout({
   params,
 }: {
   children: ReactNode;
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const resolved = await params;
-  const locale = locales.includes(resolved.locale) ? resolved.locale : defaultLocale;
+  // Next 15.5 tip denetimi rota parametresini string olarak bekler; daralma çalışma anında.
+  const locale = (locales as readonly string[]).includes(resolved.locale)
+    ? (resolved.locale as Locale)
+    : defaultLocale;
   const dict = await getDictionary(locale);
   return (
     <I18nProvider locale={locale} dict={dict}>
